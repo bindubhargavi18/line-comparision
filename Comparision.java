@@ -13,7 +13,7 @@ public class Comparision {
 			y2=s.nextInt();
 			a=x2-x1;
 			b=y2-y1;
-		len1=Math.sqrt((a*a)+(b*b));
+		len1=(Math.sqrt((a*a)+(b*b)));
 		System.out.println("length of line1 is" +len1);
 		System.out.println("enter points of a line2");   
 		x1=s.nextInt();
@@ -22,9 +22,9 @@ public class Comparision {
 		y2=s.nextInt();
 		a=x2-x1;
 		b=y2-y1;
-		len2=Math.sqrt((a*a)+(b*b));
+		len2=(Math.sqrt((a*a)+(b*b)));
 		System.out.println("length of line2 is" +len2);
-	   int res=Double.compare(len1,len2);
+		int res=Double.compare(len1,len2);
 	   if(res==0)
 		   System.out.println("Both lines are equal");
 	   else
