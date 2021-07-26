@@ -27,8 +27,10 @@ public class Comparision {
 		int res=Double.compare(len1,len2);
 	   if(res==0)
 		   System.out.println("Both lines are equal");
+	   else if(res<0)
+		   System.out.println("line1: " + len1 + " is less than line2: " + len2);
 	   else
-		   System.out.println("lines are not equal");
+		   System.out.println("line1: " + len1 + " is greater than line2:  " + len2);
 	
 	}
 }
