@@ -26,6 +26,8 @@ public class Comparision {
 		System.out.println("length of line2 is" +len2);
 	if (len1==len2)
 		System.out.println("both lines are equal");
+	else
+		System.out.println("Lines are not equal");
 	
 	}
 }
