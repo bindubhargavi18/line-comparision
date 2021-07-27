@@ -24,11 +24,13 @@ public class Comparision {
 		b=y2-y1;
 		len2=(Math.sqrt((a*a)+(b*b)));
 		System.out.println("length of line2 is" +len2);
-		int res=Double.compare(len1,len2);
-	   if(res==0)
+		Double obj1=len1;
+		Double obj2=len2;
+	
+	   if(obj1.equals(obj2))
 		   System.out.println("Both lines are equal");
-	   else
-		   System.out.println("lines are not equal");
+	   else 
+		   System.out.println("Lines are not equal");
 	
 	}
 }
